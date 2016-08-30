@@ -1,0 +1,130 @@
+body{
+  display: flex;
+  align-items: flex-start;
+}
+body ul{
+  margin: 20px;
+}
+ul.menu{
+  list-style: none;
+  border: 1px solid #eaeaea;
+  width: 200px;
+  padding: 0px!important;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+ul.menu li{
+  padding: 8px 4px 8px 10px;
+}
+ul.menu li:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+ul.menu li.active{
+  border-left: 2px solid #578dff;
+  background-color: whitesmoke;
+}
+
+/* the second menu after this comment*/
+
+ul.menu2{
+  list-style: none;
+  border: 1px solid #eaeaea;
+  width: 200px;
+  padding: 0px!important;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+ul.menu2 li{
+  padding: 8px 4px 8px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+ul.menu2 li i{
+  padding-right:15px;
+}
+ul.menu2 li:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+ul.menu2 li.active{
+  border-left: 2px solid #578dff;
+  background-color: whitesmoke;
+}
+
+/* the third menu after this comment*/
+
+ul.menu3{
+  list-style: none;
+  border: 1px solid #eaeaea;
+  width: 45px;
+  padding: 0px!important;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+ul.menu3:hover{
+  width: 200px;
+}
+ul.menu3:hover > li span{
+  display: block;
+}
+ul.menu3 li{
+  padding: 8px 4px 8px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+ul.menu3 li i{
+  padding-right:15px;
+}
+ul.menu3 li span{
+  display: none;
+}
+ul.menu3 li:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+ul.menu3 li.active{
+  border-left: 2px solid #578dff;
+  background-color: whitesmoke;
+}
+/* the fourth menu after this comment*/
+
+ul.menu4{
+  list-style: none;
+  border: 1px solid #eaeaea;
+  width: 45px;
+  padding: 0px!important;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+ul.menu4 li:hover{
+  width: 200px;
+  border: 1px solid #eaeaea;
+  border-left: none;
+}
+ul.menu4 li:hover span{
+  display: block;
+}
+ul.menu4 li{
+  padding: 8px 4px 8px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+}
+ul.menu4 li i{
+  padding-right:15px;
+}
+ul.menu4 li span{
+  display: none;
+}
+ul.menu4 li:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+ul.menu4 li.active{
+  border-left: 2px solid #578dff;
+  background-color: whitesmoke;
+}
